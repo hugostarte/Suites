@@ -1,0 +1,62 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url('house.jpg');
+	background-size: cover;
+	background-repeat: none;
+}
+h1{	margin-top: 20px;
+	font-family: 'Major Mono Display', monospace;
+	text-align: center;
+	color: white;
+	}
+input{
+	width: 50px;
+	border-radius: 5px;
+	border: 0px;
+	background-color:rgba(255,255,255, 0.25);
+	outline-style:none; /* bordure moche*/
+}
+input:focus{
+	border: 2px solid #204d59a6;
+}
+.blocsuite{
+	padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.20);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: #c6c1c1;
+}
+#blocsuite2{
+	background-color: rgba(0,0,0, 0.5);
+	margin-bottom: 250px;}
+#titlesuite{
+	font-size: 18px;
+	font-style: italic;
+}
+button{
+	background-color: #24464cd9;
+	border-radius: 5px;
+	border: 2px solid rgba(14, 52, 12, 0.11);
+	cursor: pointer;
+	overflow-wrap: break-word;
+	text-align: center;
+	width: auto;
+	color: #859994;
+	padding: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 20px;
+}
+button:hover{
+	border: 2px solid rgba(14, 52, 12, 0.06);
+	background-color:#24464ca1;
+}
+button:focus{
+	border: 2px solid rgba(14, 52, 12, 0.06);
+	background-color:#24464ca1;
+	outline-style:none; /* bordure moche*/
+}
